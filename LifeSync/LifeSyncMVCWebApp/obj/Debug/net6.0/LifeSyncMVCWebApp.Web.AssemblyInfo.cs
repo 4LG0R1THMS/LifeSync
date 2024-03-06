@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fe8caad6-c7c8-4608-90c5-4049d072b9f4")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LifeSyncMVCWebApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

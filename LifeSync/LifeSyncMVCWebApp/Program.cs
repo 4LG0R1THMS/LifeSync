@@ -1,3 +1,7 @@
+using LifeSyncMVCWebApp.Data;
+using LifeSyncMVCWebApp.Data.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace LifeSyncMVCWebApp
 {
     public class Program
@@ -5,6 +9,22 @@ namespace LifeSyncMVCWebApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            //string connectionString =
+            //    builder.Configuration.GetConnectionString("DefaultConnection")
+            //    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+            //builder.Services.AddDbContext<LifeSyncDbContext>(options =>
+            //    options.UseSqlServer(connectionString));
+
+            //builder.Services.AddDefaultIdentity<_ApplicationUser>(options =>
+            //{
+            //    options.SignIn.RequireConfirmedAccount = false;
+            //    options.Password.RequireNonAlphanumeric = false;
+            //    options.Password.RequireLowercase = false;
+            //    options.Password.RequireUppercase = false;
+            //    options.Password.RequiredLength = 6;
+            //});
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
