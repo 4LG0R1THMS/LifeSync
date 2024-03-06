@@ -1,0 +1,5 @@
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.csproj.AssemblyReference.cache
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.AssemblyInfoInputs.cache
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.AssemblyInfo.cs
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.csproj.CoreCompileInputs.cache
