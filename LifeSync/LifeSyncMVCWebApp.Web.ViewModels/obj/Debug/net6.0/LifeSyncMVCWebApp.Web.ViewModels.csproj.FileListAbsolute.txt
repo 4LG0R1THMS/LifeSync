@@ -1,0 +1,12 @@
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\bin\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.deps.json
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\bin\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\bin\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.pdb
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.csproj.AssemblyReference.cache
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.AssemblyInfoInputs.cache
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.AssemblyInfo.cs
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.csproj.CoreCompileInputs.cache
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\refint\LifeSyncMVCWebApp.Web.ViewModels.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\LifeSyncMVCWebApp.Web.ViewModels.pdb
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Web.ViewModels\obj\Debug\net6.0\ref\LifeSyncMVCWebApp.Web.ViewModels.dll

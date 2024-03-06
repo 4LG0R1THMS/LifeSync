@@ -105,9 +105,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.csproj",
-      "projectName": "LifeSyncMVCWebApp",
-      "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.csproj",
+      "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
+      "projectName": "LifeSyncMVCWebApp.Web",
+      "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
       "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
       "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\obj\\",
       "projectStyle": "PackageReference",

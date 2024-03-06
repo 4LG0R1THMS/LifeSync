@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp", "LifeSyncMVCWebApp\LifeSyncMVCWebApp.csproj", "{AEFB6D7F-D6C6-46BD-8205-1A89DA3EE604}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp.Web", "LifeSyncMVCWebApp\LifeSyncMVCWebApp.Web.csproj", "{AEFB6D7F-D6C6-46BD-8205-1A89DA3EE604}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07CE03C2-10FF-42F6-9147-6A090E885B1C} = {07CE03C2-10FF-42F6-9147-6A090E885B1C}
+		{75E7F37C-DEB5-476B-8B91-AC36A518C966} = {75E7F37C-DEB5-476B-8B91-AC36A518C966}
+		{A4C21888-9FEC-4BF1-A7C7-BC3E623A9284} = {A4C21888-9FEC-4BF1-A7C7-BC3E623A9284}
+		{AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87} = {AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87}
+		{E9403418-4828-4CEE-A02F-19B469B1DF76} = {E9403418-4828-4CEE-A02F-19B469B1DF76}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp.Data", "LifeSyncMVCWebApp.Data\LifeSyncMVCWebApp.Data.csproj", "{E9403418-4828-4CEE-A02F-19B469B1DF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp.Data.Models", "LifeSyncMVCWebApp.Data.Models\LifeSyncMVCWebApp.Data.Models.csproj", "{07CE03C2-10FF-42F6-9147-6A090E885B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp.Services", "LifeSyncMVCWebApp.Services\LifeSyncMVCWebApp.Services.csproj", "{AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp.Common", "LifeSyncMVCWebApp.Common\LifeSyncMVCWebApp.Common.csproj", "{75E7F37C-DEB5-476B-8B91-AC36A518C966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSyncMVCWebApp.Web.ViewModels", "LifeSyncMVCWebApp.Web.ViewModels\LifeSyncMVCWebApp.Web.ViewModels.csproj", "{A4C21888-9FEC-4BF1-A7C7-BC3E623A9284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +32,26 @@ Global
 		{AEFB6D7F-D6C6-46BD-8205-1A89DA3EE604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEFB6D7F-D6C6-46BD-8205-1A89DA3EE604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEFB6D7F-D6C6-46BD-8205-1A89DA3EE604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9403418-4828-4CEE-A02F-19B469B1DF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9403418-4828-4CEE-A02F-19B469B1DF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9403418-4828-4CEE-A02F-19B469B1DF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9403418-4828-4CEE-A02F-19B469B1DF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CE03C2-10FF-42F6-9147-6A090E885B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CE03C2-10FF-42F6-9147-6A090E885B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CE03C2-10FF-42F6-9147-6A090E885B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CE03C2-10FF-42F6-9147-6A090E885B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1A5D39-1F4F-4BE9-B42A-BE4943A14E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E7F37C-DEB5-476B-8B91-AC36A518C966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E7F37C-DEB5-476B-8B91-AC36A518C966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E7F37C-DEB5-476B-8B91-AC36A518C966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E7F37C-DEB5-476B-8B91-AC36A518C966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C21888-9FEC-4BF1-A7C7-BC3E623A9284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C21888-9FEC-4BF1-A7C7-BC3E623A9284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C21888-9FEC-4BF1-A7C7-BC3E623A9284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C21888-9FEC-4BF1-A7C7-BC3E623A9284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aGV8IO/uKGhO3OFD5tCC8WweJ3wcuGwUXFlnOnibzOYO5Js0QydtYG8OgB7l+ZiPzX5Ssoeri0Qy59+1cugWJg==",
+  "dgSpecHash": "vFWdl6oMCiFt8UOAtzbStpQ5rm6bDqon+HWgub9xFNkPrZ51+BvyTMAmrIARMaK+IhbMLCUEsfYD/BYlbA5P2g==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.csproj",
+  "projectFilePath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\borislavchernev06\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
   ],
