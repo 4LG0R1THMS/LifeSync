@@ -18,18 +18,17 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
-      # Navigate to LifeSync
-    - name: Navigate to project folder
-      run: cd /LifeSync 
-
       # Restore the dependencies
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: /LifeSync
 
       # Run build
     - name: Build
       run: dotnet build --configuration
+      working-directory: /LifeSync
 
       # Run tests
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      working-directory: /LifeSync
