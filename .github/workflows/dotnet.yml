@@ -20,10 +20,12 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
 
-      # Run build
-    - name: Build
-      run: dotnet build --no-restore -c Release /LifeSync
-
-      # Run tests
-    - name: Test
-      run: dotnet test --no-build --verbosity normal /LifeSync
+    - name: .Net Build
+    - uses: EasyDesk/action-dotnet-build@v1.0.0
+      with:
+        # Additional build arguments to pass to 'dotnet build'.
+        build-args: --no-restore
+        # The build configuration to use (defaults to 'Release').
+        build-configuration: Release
+        # The path to the project or solution to build (defaults to the current directory).
+        path: ./LifeSync
