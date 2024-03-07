@@ -1,4 +1,4 @@
-name: .NET
+name: .NET CI
 
 on:
   push:
@@ -20,8 +20,10 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore /LifeSync
 
-    - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v4.0.0
-      with:
-        dotnet-version: 6.0.0
-      run: dotnet build --no-restore -c Release /LifeSync
+      # Run build
+    - name: Build
+      run: dotnet build --no-restore /LifeSync
+
+      # Run tests
+    - name: Test
+      run: dotnet test --no-build --verbosity normal /LifeSync
