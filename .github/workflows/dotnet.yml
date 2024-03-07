@@ -25,7 +25,7 @@ jobs:
 
       # Run build
     - name: Build
-      run: dotnet build --configuration
+      run: dotnet build --configuration Release
       working-directory: ./LifeSync
 
       # Run tests
