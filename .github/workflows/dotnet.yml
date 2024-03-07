@@ -21,14 +21,14 @@ jobs:
       # Restore the dependencies
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: /LifeSync
+      working-directory: ./LifeSync
 
       # Run build
     - name: Build
       run: dotnet build --configuration
-      working-directory: /LifeSync
+      working-directory: ./LifeSync
 
       # Run tests
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: /LifeSync
+      working-directory: ./LifeSync
