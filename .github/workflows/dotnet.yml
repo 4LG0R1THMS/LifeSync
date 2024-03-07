@@ -22,7 +22,7 @@ jobs:
 
       # Run build
     - name: Build
-      run: dotnet build --no-restore /LifeSync
+      run: dotnet build --configuration /LifeSync
 
       # Run tests
     - name: Test
