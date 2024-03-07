@@ -22,8 +22,8 @@ jobs:
 
       # Run build
     - name: Build
-      run: dotnet build --no-restore -c Release ./LifeSync/LifeSync.sln
+      run: dotnet build --no-restore -c Release /LifeSync/LifeSync.sln
 
       # Run tests
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./LifeSync/LifeSync.sln
+      run: dotnet test --no-build --verbosity normal /LifeSync/LifeSync.sln
