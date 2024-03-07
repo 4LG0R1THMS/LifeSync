@@ -17,13 +17,19 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+
+      # Navigate to LifeSync
+    - name: Navigate to project folder
+      run: cd /LifeSync 
+
+      # Restore the dependencies
     - name: Restore dependencies
-      run: dotnet restore /LifeSync
+      run: dotnet restore
 
       # Run build
     - name: Build
-      run: dotnet build --configuration /LifeSync
+      run: dotnet build --configuration
 
       # Run tests
     - name: Test
-      run: dotnet test --no-build --verbosity normal /LifeSync
+      run: dotnet test --no-build --verbosity normal
