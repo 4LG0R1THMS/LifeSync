@@ -3,8 +3,8 @@
 LifeSync is a personal organizer designed as a project for the IT Kareer course. It aims to provide users with a comprehensive tool to manage their daily tasks, events, and important information all in one place.
 
 ## Participants
-* [Deyan Sirakov](https://github.com/Deyan2306)
-* [Borislav Chernev](https://github.com/BorislavChernev)
+* [`Deyan Sirakov`](https://github.com/Deyan2306)
+* [`Borislav Chernev`](https://github.com/BorislavChernev)
 
 ## Features
 LifeSync offers the following key features:
@@ -20,9 +20,11 @@ LifeSync is built using the following technologies:
 - **Entity Framework**: An object-relational mapper that enables .NET developers to work with relational data using domain-specific objects.
 - **Razor Pages**: A page-based programming model in ASP.NET Core that makes building web UI easier and more productive.
 
-![.NET Logo](https://global-uploads.webflow.com/6047a9e35e5dc54ac86ddd90/63064f1fedf422395124660e_e7d03466.png)
-![Blazor Pages Logo](https://seeklogo.com/images/B/blazor-logo-B6B0844B72-seeklogo.com.png)
-![Terraform Logo](https://s3.amazonaws.com/media-p.slid.es/uploads/505004/images/6599295/terraform.png)
+<p align="center">
+  <img src="https://global-uploads.webflow.com/6047a9e35e5dc54ac86ddd90/63064f1fedf422395124660e_e7d03466.png" alt=".NET" width="100" height="100" />
+  <img src="https://seeklogo.com/images/B/blazor-logo-B6B0844B72-seeklogo.com.png" alt="Blazor Pages" width="100" height="100" />
+  <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/505004/images/6599295/terraform.png" alt="Terraform" width="100" height="100" />
+</p>
 
 ## Installation
 To get started with LifeSync, follow these steps:
