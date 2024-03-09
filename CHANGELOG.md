@@ -1,3 +1,11 @@
+# v0.0.2 (09.03.2024)
+## What's Changed
+* Created a file, which explains the conventions in the project by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/9
+* Created a `.NET` workflow configuration by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/10
+* Fixed the `.NET` workflow by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/11
+* FE index page  by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/12
+* README formatting by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/13
+
 # v0.0.1 (06.03.2024)
 ## What's Changed
 * Create LICENSE by @Deyan2306 in https://github.com/4LG0R1THMS/personal_organizer/pull/2
