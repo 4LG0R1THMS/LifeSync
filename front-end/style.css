@@ -39,6 +39,28 @@ a {
     color: #20c37b;
 }
 
+.tx__highlited_reverse {
+    color: white;
+}
+
+.hd__holder {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.sec__header {
+    color: #212438;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.sec__para {
+    color: #212438;
+    line-height: 1.3;
+}
+
 /* Sections */
 .sec_vh__nav {
     height: 8vh;
