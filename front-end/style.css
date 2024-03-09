@@ -5,6 +5,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #212438;
     color: white;
+
+    line-height: 1.1;
 }
 
 a {
@@ -12,8 +14,8 @@ a {
     text-decoration: none;
 }
 
-nav {
-    border-bottom: 1px solid #red;
+.text {
+    margin-left: 10px;
 }
 
 .tx__highlited {
@@ -28,6 +30,71 @@ nav {
     justify-content: space-between;
 
     padding: 0 20vw;
+}
+
+.sec_hero {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec_hero > div {
+    padding: 16vw;
+    align-items: center;
+}
+
+.hero__big {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.ls_text {
+    font-size: 110px;
+    font-weight: bolder;
+}
+
+.hero__para {
+    padding-top: 24px;
+    color: #c0c0c0;
+    font-size: 30px;
+
+    margin-bottom: 5vh;
+}
+
+.hero__button_holder {
+    height: 7vh;
+
+    margin-right: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero__button_holder > a {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero__button_holder > a:hover {
+    color: #212438;
+    background-color: #20c37b;
+    border-color: #20c37b;
+
+    transition: 0.3s ease-in-out;
 }
 
 .sec_vh_footer {
