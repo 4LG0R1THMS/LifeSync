@@ -3,4 +3,37 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #212438;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.tx__highlited {
+    color: #20c37b;
+}
+
+/* Sections */
+.sec_vh__nav {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20vw;
+}
+
+.sec_vh_footer {
+    height: 10vh;
+}
+
+.sec_vh__navless {
+    height: 92vh;
+}
+
+.sec_vh_full {
+    height: 100vh;
 }
