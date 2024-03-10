@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSync - Register</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="left_section">
+        <section class="sec__text">
+            <div class="header__holder">
+                <p class="header__para">START FOR FREE</p>
+                <h1 class="header__big">Create new account<span class="hl__inline">.</span></h1>
+                <p class="header__question">Already A Member? <a href="/login.html" class="header__link">Log In</a></p>    
+            </div>
+        </section>
+
+        <section class="sec__form">
+            <form action="post" class="form__register">
+                
+                <div class="form__names">
+                    <div class="first_name__holder">
+                        <label for="firstName" class="inp__label">First name</label>
+                        <input type="text" class="inp__first_name" id="firstName" name="firstName" required />
+                    </div>
+                    
+                    <div class="second_name__holder">
+                        <label for="lastName" class="inp__label">Last name</label>
+                    <input type="text" class="inp__last_name" id="lastName" name="lastName" required />
+                    </div>
+                    
+                </div>
+
+                <label for="email" class="inp__label">Email</label>
+                <input type="email" class="inp__email" id="email" name="email" required />
+        
+                <label for="password" class="inp__label">Password</label>
+                <input type="password" class="inp__password" id="password" name="password" required />
+        
+                <input type="submit" class="btn__submit" value="Create account">
+            </form>
+        </section>
+    </div>
+    
+    <div class="right_section">
+        
+    </div>
+    
+</body>
+</html>
