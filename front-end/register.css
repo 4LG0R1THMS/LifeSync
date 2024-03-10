@@ -68,7 +68,8 @@ body {
 }
 
 .btn__submit:hover {
-    background-color: #20c37b;
+    background-color: #23a168;
+    transition: 0.3s ease-in-out;
 }
 
 .header__holder {
