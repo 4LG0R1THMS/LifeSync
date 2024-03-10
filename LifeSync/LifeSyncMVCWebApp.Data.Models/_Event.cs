@@ -14,7 +14,7 @@ namespace LifeSyncMVCWebApp.Data.Models
         public int EventId { get; set; }
 
         [ForeignKey(nameof(User))]
-        public string UserId { get; set; } = null!;
+        public Guid UserId { get; set; }
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         public DateTime StartDateTime { get; set; }

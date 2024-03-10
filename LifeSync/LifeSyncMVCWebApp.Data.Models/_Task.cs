@@ -14,7 +14,7 @@ namespace LifeSyncMVCWebApp.Data.Models
         public int TaskId { get; set; }
     
         [ForeignKey(nameof(User))]
-        public string UserId { get; set; } = null!; // Assuming a relationship with IdentityUser
+        public Guid UserId { get; set; } // Assuming a relationship with IdentityUser
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
         public string Priority { get; set; } = null!;// Consider enum for Priority (Low, Medium, High)
