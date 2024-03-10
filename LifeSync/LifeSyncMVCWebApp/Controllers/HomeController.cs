@@ -1,8 +1,8 @@
-﻿using LifeSyncMVCWebApp.Models;
+﻿using LifeSyncMVCWebApp.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace LifeSyncMVCWebApp.Controllers
+namespace LifeSyncMVCWebApp.Web.Controllers
 {
     public class HomeController : Controller
     {

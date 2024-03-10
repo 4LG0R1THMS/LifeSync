@@ -1,4 +1,4 @@
-namespace LifeSyncMVCWebApp.Models
+namespace LifeSyncMVCWebApp.Web.Models
 {
     public class ErrorViewModel
     {

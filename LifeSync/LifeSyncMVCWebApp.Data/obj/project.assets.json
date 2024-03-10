@@ -2163,32 +2163,34 @@
     ]
   },
   "packageFolders": {
-    "/home/deyan/.nuget/packages/": {}
+    "C:\\Users\\borislavchernev06\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/deyan/temp/personal_organizer/LifeSync/LifeSyncMVCWebApp.Data/LifeSyncMVCWebApp.Data.csproj",
+      "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj",
       "projectName": "LifeSyncMVCWebApp.Data",
-      "projectPath": "/home/deyan/temp/personal_organizer/LifeSync/LifeSyncMVCWebApp.Data/LifeSyncMVCWebApp.Data.csproj",
-      "packagesPath": "/home/deyan/.nuget/packages/",
-      "outputPath": "/home/deyan/temp/personal_organizer/LifeSync/LifeSyncMVCWebApp.Data/obj/",
+      "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj",
+      "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/deyan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/deyan/temp/personal_organizer/LifeSync/LifeSyncMVCWebApp.Data.Models/LifeSyncMVCWebApp.Data.Models.csproj": {
-              "projectPath": "/home/deyan/temp/personal_organizer/LifeSync/LifeSyncMVCWebApp.Data.Models/LifeSyncMVCWebApp.Data.Models.csproj"
+            "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
+              "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj"
             }
           }
         }
@@ -2225,22 +2227,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
