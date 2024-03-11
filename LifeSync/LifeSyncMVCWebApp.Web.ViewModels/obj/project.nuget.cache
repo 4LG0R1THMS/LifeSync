@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IkrZr9F0CAq6wQlHeaKlmLRdI0LgfLVjrNBtyHz2GWnRhgpRP49sMZhE4pheidHA0xRl4Q8CJxx1BelthzCnpQ==",
+  "dgSpecHash": "lf0Pyy42rWGzcJpBNQfNAmkm8w/axrGPcHji+OysFrEdCS3BrcxphmUeGr1jE8DnMo1BzRI4MDJP2kErN/pD3A==",
   "success": true,
-  "projectFilePath": "/home/deyan/temp/personal_organizer/LifeSync/LifeSyncMVCWebApp.Web.ViewModels/LifeSyncMVCWebApp.Web.ViewModels.csproj",
-  "expectedPackageFiles": [
-    "/home/deyan/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "/home/deyan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\LifeSyncMVCWebApp.Web.ViewModels.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

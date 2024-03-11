@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 
 namespace LifeSyncMVCWebApp.Data.Models
 {
-    public class _ApplicationUser : IdentityUser
+    public class _ApplicationUser : IdentityUser<Guid>
     {
-        public string FirstName { get; set; } = null!;
-        public string LastName { get; set; } = null!;
+        public _ApplicationUser()
+        {
+            this.Id = Guid.NewGuid();
+        }
     }
 }

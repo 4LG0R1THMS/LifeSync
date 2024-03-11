@@ -11,7 +11,7 @@ namespace LifeSyncMVCWebApp.Data.Models
     {
         [Key]
         public int NoteId { get; set; }
-        public int UserId { get; set; } // Assuming a relationship with a User entity
+        public Guid UserId { get; set; } // Assuming a relationship with a User entity
         public string Title { get; set; } = null!;
         public string Content { get; set; } = null!;
         public DateTime DateCreated { get; set; }

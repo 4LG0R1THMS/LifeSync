@@ -1,5 +1,6 @@
 using LifeSyncMVCWebApp.Data;
 using LifeSyncMVCWebApp.Data.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace LifeSyncMVCWebApp
@@ -10,21 +11,24 @@ namespace LifeSyncMVCWebApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            //string connectionString =
-            //    builder.Configuration.GetConnectionString("DefaultConnection")
-            //    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            string connectionString =
+                builder.Configuration.GetConnectionString("DefaultConnection")
+                ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
-            //builder.Services.AddDbContext<LifeSyncDbContext>(options =>
-            //    options.UseSqlServer(connectionString));
+            builder.Services.AddDbContext<LifeSyncDbContext>(options =>
+                options.UseSqlServer(connectionString));
 
-            //builder.Services.AddDefaultIdentity<_ApplicationUser>(options =>
-            //{
-            //    options.SignIn.RequireConfirmedAccount = false;
-            //    options.Password.RequireNonAlphanumeric = false;
-            //    options.Password.RequireLowercase = false;
-            //    options.Password.RequireUppercase = false;
-            //    options.Password.RequiredLength = 6;
-            //});
+            builder.Services.AddDefaultIdentity<_ApplicationUser>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = true;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedAccount = false;
+            })
+                .AddRoles<IdentityRole<Guid>>()
+                .AddEntityFrameworkStores<LifeSyncDbContext>(); ;
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -44,7 +48,13 @@ namespace LifeSyncMVCWebApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapRazorPages();
 
             app.MapControllerRoute(
                 name: "default",
