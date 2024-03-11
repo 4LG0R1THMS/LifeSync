@@ -5,6 +5,7 @@ LifeSync is a personal organizer designed as a project for the IT Kareer course.
 ## Participants
 * [`Deyan Sirakov`](https://github.com/Deyan2306)
 * [`Borislav Chernev`](https://github.com/BorislavChernev)
+* [`George Pachedjiev`](https://github.com/GeorgePachedjiev)
 
 ## Features
 LifeSync offers the following key features:
