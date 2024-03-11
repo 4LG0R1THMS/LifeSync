@@ -5,6 +5,7 @@ LifeSync is a personal organizer designed as a project for the IT Kareer course.
 ## Participants
 * [`Deyan Sirakov`](https://github.com/Deyan2306)
 * [`Borislav Chernev`](https://github.com/BorislavChernev)
+* [`George Pachedjiev`](https://github.com/GeorgePachedjiev)
 
 ## Features
 LifeSync offers the following key features:
@@ -79,6 +80,7 @@ LifeSync is licensed under the [MIT License](LICENSE). Feel free to use, modify,
 ## Contact
 If you have any questions or suggestions regarding LifeSync, feel free to reach out to us:
 - Deyan Sirakov: [GitHub](https://github.com/Deyan2306)
-- Borislav Chernev: [GitHub](https://github.com/BorislavChernev)
+- Borislav Chernev: [`GitHub`](https://github.com/BorislavChernev)
+- George Pachedjiev: [`GitHub`](https://github.com/GeorgePachedjiev)
 
 Thank you for using LifeSync! We hope it helps you stay organized and productive. 🚀
