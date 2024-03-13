@@ -22,7 +22,12 @@ namespace LifeSyncMVCWebApp.Data.Models
         public DateTime Deadline { get; set; }
         public DateTime DateCreated { get; set; }
 
-        // Navigation property
+        // Nullable foreign key to reference Project (A Task may optionally belong to a Project)
+        [ForeignKey(nameof(Project))]
+        public int? ProjectId { get; set; }
+
+        // Navigation properties
         public _ApplicationUser User { get; set; } = null!;
+        public virtual _Project Project { get; set; }
     }
 }
