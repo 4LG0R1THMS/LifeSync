@@ -1,4 +1,4 @@
-# LifeSync <img src="/pics/LifeSync.png" width="30px"/>
+# LifeSync <img src="/pics/LifeSync.png" width="50px"/>
 
 LifeSync is a personal organizer designed as a project for the IT Kareer course. It aims to provide users with a comprehensive tool to manage their daily tasks, events, and important information all in one place.
 
