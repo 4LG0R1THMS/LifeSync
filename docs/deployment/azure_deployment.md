@@ -15,8 +15,8 @@ Before proceeding with the deployment, make sure you have the following:
 First, clone the LifeSync repository from GitHub:
 
 ```bash
-git clone https://github.com/4LG0R1THMS/personal_organizer
-cd personal_organizer
+git clone https://github.com/4LG0R1THMS/LifeSync
+cd LifeSync
 ```
 
 ## Step 2: Configure Terraform
