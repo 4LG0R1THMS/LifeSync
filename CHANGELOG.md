@@ -1,3 +1,15 @@
+# v0.0.3 (13.03.2024)
+## What's Changed
+* Register page in the FE by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/14
+* Added identity and intial migration by @BorislavChernev in https://github.com/4LG0R1THMS/LifeSync/pull/15
+* Some minor work over the `README.md` by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/16
+* Added the Logo to `README.md` by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/17
+* Added a banner to the README.md by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/18
+* Some fixed over the deployment docs by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/19
+
+
+**Full Changelog**: https://github.com/4LG0R1THMS/LifeSync/compare/v0.0.2...v0.0.3
+
 # v0.0.2 (09.03.2024)
 ## What's Changed
 * Created a file, which explains the conventions in the project by @Deyan2306 in https://github.com/4LG0R1THMS/LifeSync/pull/9
