@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LifeSyncMVCWebApp.Data.Models.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -18,7 +19,7 @@ namespace LifeSyncMVCWebApp.Data.Models
         public string Name { get; set; } = null!;
         public string Description { get; set; } = null!;
         public DateTime Deadline { get; set; }
-        public string Status { get; set; } = null!; // Consider enum for Status
+        public _StatusEnum Status { get; set; }
         public DateTime DateCreated { get; set; }
 
         // Navigation property
