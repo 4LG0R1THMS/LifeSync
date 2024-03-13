@@ -23,5 +23,8 @@ namespace LifeSyncMVCWebApp.Data.Models
 
         // Navigation property
         public _ApplicationUser User { get; set; }
+
+        // Navigation property to the tasks (One Project to Many Tasks relationship)
+        public virtual ICollection<_Task> Tasks { get; set; } = new List<_Task>();
     }
 }
