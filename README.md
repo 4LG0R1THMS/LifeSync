@@ -84,3 +84,5 @@ If you have any questions or suggestions regarding LifeSync, feel free to reach 
 - George Pachedjiev: [`GitHub`](https://github.com/GeorgePachedjiev)
 
 Thank you for using LifeSync! We hope it helps you stay organized and productive. 🚀
+
+<img src="/pics/lifesyncbanner.png" />
