@@ -79,9 +79,9 @@ LifeSync is licensed under the [MIT License](LICENSE). Feel free to use, modify,
 
 ## Contact
 If you have any questions or suggestions regarding LifeSync, feel free to reach out to us:
-- Deyan Sirakov: [`GitHub`](https://github.com/Deyan2306)
-- Borislav Chernev: [`GitHub`](https://github.com/BorislavChernev)
-- George Pachedjiev: [`GitHub`](https://github.com/GeorgePachedjiev)
+- 🔥 Deyan Sirakov: [`GitHub`](https://github.com/Deyan2306), [`LinkedIn`](https://www.linkedin.com/in/didko/)
+- 🔥 Borislav Chernev: [`GitHub`](https://github.com/BorislavChernev), [`LinkedIn`](https://www.linkedin.com/in/borislav-chernev06/) 
+- 🔥 George Pachedjiev: [`GitHub`](https://github.com/GeorgePachedjiev)
 
 Thank you for using LifeSync! We hope it helps you stay organized and productive. 🚀
 
