@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LifeSyncMVCWebApp.Data.Models.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -17,8 +18,8 @@ namespace LifeSyncMVCWebApp.Data.Models
         public Guid UserId { get; set; } // Assuming a relationship with IdentityUser
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
-        public string Priority { get; set; } = null!;// Consider enum for Priority (Low, Medium, High)
-        public string Status { get; set; } = null!;// Consider enum for Status (Pending, InProgress, Completed)
+        public _PriorityEnum Priority { get; set; }
+        public _StatusEnum Status { get; set; }
         public DateTime Deadline { get; set; }
         public DateTime DateCreated { get; set; }
 
