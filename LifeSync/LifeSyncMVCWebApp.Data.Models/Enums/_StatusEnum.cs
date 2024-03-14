@@ -8,8 +8,8 @@ namespace LifeSyncMVCWebApp.Data.Models.Enums
 {
     public enum _StatusEnum
     {
-        Pending,
-        InProgress,
-        Completed
+        Pending = 0,
+        InProgress = 1,
+        Completed = 2
     }
 }

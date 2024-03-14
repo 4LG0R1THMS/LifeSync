@@ -2561,6 +2561,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "LifeSyncMVCWebApp.Common/1.0.0": {
+        "runtime": {
+          "LifeSyncMVCWebApp.Common.dll": {}
+        }
+      },
       "LifeSyncMVCWebApp.Data/1.0.0": {
         "dependencies": {
           "LifeSyncMVCWebApp.Data.Models": "1.0.0",
@@ -2572,6 +2577,7 @@
       },
       "LifeSyncMVCWebApp.Data.Models/1.0.0": {
         "dependencies": {
+          "LifeSyncMVCWebApp.Common": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.27"
         },
         "runtime": {
@@ -4153,6 +4159,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "LifeSyncMVCWebApp.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "LifeSyncMVCWebApp.Data/1.0.0": {
       "type": "project",

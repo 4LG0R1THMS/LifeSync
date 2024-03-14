@@ -8,9 +8,9 @@ namespace LifeSyncMVCWebApp.Data.Models.Enums
 {
     public enum _PriorityEnum
     {
-        Low,
-        Medium,
-        High,
+        Low = 0,
+        Medium = 1,
+        High = 2,
 
     }
 }

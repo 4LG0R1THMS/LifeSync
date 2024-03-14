@@ -4,6 +4,7 @@ using LifeSyncMVCWebApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LifeSyncMVCWebApp.Data.Migrations
 {
     [DbContext(typeof(LifeSyncDbContext))]
-    partial class LifeSyncDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240314154232_DatabaseSeeded")]
+    partial class DatabaseSeeded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -92,7 +94,7 @@ namespace LifeSyncMVCWebApp.Data.Migrations
                         {
                             Id = new Guid("c683a83b-82a9-4436-af59-0b980068a995"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e2fbab2e-fbf4-4880-b36e-137346896023",
+                            ConcurrencyStamp = "178be58d-249e-4fa3-8f56-3f3e48363db6",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
@@ -110,23 +112,19 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Address")
                         .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
@@ -148,23 +146,21 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("EndDateTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Location")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StartDateTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
@@ -186,7 +182,6 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Content")
                         .IsRequired()
-                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateCreated")
@@ -194,8 +189,7 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
@@ -223,13 +217,11 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -247,8 +239,8 @@ namespace LifeSyncMVCWebApp.Data.Migrations
                         new
                         {
                             ProjectId = 1,
-                            DateCreated = new DateTime(2024, 3, 14, 18, 42, 17, 465, DateTimeKind.Local).AddTicks(4039),
-                            Deadline = new DateTime(2024, 4, 14, 18, 42, 17, 465, DateTimeKind.Local).AddTicks(3988),
+                            DateCreated = new DateTime(2024, 3, 14, 17, 42, 31, 610, DateTimeKind.Local).AddTicks(2181),
+                            Deadline = new DateTime(2024, 4, 14, 17, 42, 31, 610, DateTimeKind.Local).AddTicks(2134),
                             Description = "This is a sample project",
                             Name = "Project Alpha",
                             Status = 0,
@@ -272,8 +264,7 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Priority")
                         .HasColumnType("int");
@@ -287,8 +278,7 @@ namespace LifeSyncMVCWebApp.Data.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
@@ -305,8 +295,8 @@ namespace LifeSyncMVCWebApp.Data.Migrations
                         new
                         {
                             TaskId = 1,
-                            DateCreated = new DateTime(2024, 3, 14, 18, 42, 17, 465, DateTimeKind.Local).AddTicks(4078),
-                            Deadline = new DateTime(2024, 3, 29, 18, 42, 17, 465, DateTimeKind.Local).AddTicks(4074),
+                            DateCreated = new DateTime(2024, 3, 14, 17, 42, 31, 610, DateTimeKind.Local).AddTicks(2221),
+                            Deadline = new DateTime(2024, 3, 29, 17, 42, 31, 610, DateTimeKind.Local).AddTicks(2217),
                             Description = "This is a sample task for Project Alpha",
                             Priority = 1,
                             ProjectId = 1,
@@ -317,8 +307,8 @@ namespace LifeSyncMVCWebApp.Data.Migrations
                         new
                         {
                             TaskId = 2,
-                            DateCreated = new DateTime(2024, 3, 14, 18, 42, 17, 465, DateTimeKind.Local).AddTicks(4087),
-                            Deadline = new DateTime(2024, 3, 29, 18, 42, 17, 465, DateTimeKind.Local).AddTicks(4084),
+                            DateCreated = new DateTime(2024, 3, 14, 17, 42, 31, 610, DateTimeKind.Local).AddTicks(2230),
+                            Deadline = new DateTime(2024, 3, 29, 17, 42, 31, 610, DateTimeKind.Local).AddTicks(2227),
                             Description = "This is a sample task222 for Project Alpha",
                             Priority = 0,
                             ProjectId = 1,
