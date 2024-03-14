@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace LifeSyncMVCWebApp.Data.Models
 {
+    using static LifeSyncMVCWebApp.Common._ValidationConstants._Event;
     public class _Event
     {
         [Key]
@@ -15,11 +16,25 @@ namespace LifeSyncMVCWebApp.Data.Models
 
         [ForeignKey(nameof(User))]
         public Guid UserId { get; set; }
+
+        [Required]
+        [StringLength(
+            maximumLength: TitleMaxLength,
+            ErrorMessage = TitleMaxLengthErrorMessage)]
         public string Title { get; set; } = null!;
+
+        [Required]
+        [StringLength(
+            maximumLength: DescriptionMaxLength,
+            ErrorMessage = DescriptionMaxLengthErrorMessage)]
         public string Description { get; set; } = null!;
         public DateTime StartDateTime { get; set; }
         public DateTime EndDateTime { get; set; }
-        public string Location { get; set; } = null!;
+
+        [StringLength(
+            maximumLength: LocationMaxLength,
+            ErrorMessage =LocationMaxLengthErrorMessage)]
+        public string? Location { get; set; }
 
         // Navigation property
         public _ApplicationUser User { get; set; } = null!;

@@ -259,3 +259,5 @@ D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\bin\D
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.pdb

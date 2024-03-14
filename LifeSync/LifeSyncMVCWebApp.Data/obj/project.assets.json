@@ -850,10 +850,21 @@
           }
         }
       },
+      "LifeSyncMVCWebApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LifeSyncMVCWebApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LifeSyncMVCWebApp.Common.dll": {}
+        }
+      },
       "LifeSyncMVCWebApp.Data.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "LifeSyncMVCWebApp.Common": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0"
         },
         "compile": {
@@ -2148,6 +2159,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "LifeSyncMVCWebApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../LifeSyncMVCWebApp.Common/LifeSyncMVCWebApp.Common.csproj",
+      "msbuildProject": "../LifeSyncMVCWebApp.Common/LifeSyncMVCWebApp.Common.csproj"
     },
     "LifeSyncMVCWebApp.Data.Models/1.0.0": {
       "type": "project",

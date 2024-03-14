@@ -15,3 +15,5 @@ D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data\
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data\bin\Debug\net6.0\LifeSyncMVCWebApp.Data.Models.pdb
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data\obj\Debug\net6.0\LifeSyncMVCWebApp.Data.csproj.CopyComplete
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data\obj\Debug\net6.0\LifeSyncMVCWebApp.Data.genruntimeconfig.cache
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.pdb

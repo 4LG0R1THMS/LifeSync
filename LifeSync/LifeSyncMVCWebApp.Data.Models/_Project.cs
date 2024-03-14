@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace LifeSyncMVCWebApp.Data.Models
 {
+    using static LifeSyncMVCWebApp.Common._ValidationConstants._Project;
     public class _Project
     {
         [Key]
@@ -16,10 +17,23 @@ namespace LifeSyncMVCWebApp.Data.Models
 
         [ForeignKey(nameof(User))]
         public Guid UserId { get; set; }
+
+        [Required]
+        [StringLength(
+            maximumLength: NameMaxLength,
+            ErrorMessage = NameMaxLengthErrorMessage)]
         public string Name { get; set; } = null!;
+
+        [StringLength(
+            maximumLength: DescriptionMaxLength,
+            ErrorMessage = DescriptionMaxLengthErrorMessage)]
         public string Description { get; set; } = null!;
         public DateTime Deadline { get; set; }
+
+        [Required]
         public _StatusEnum Status { get; set; }
+
+        [Required]
         public DateTime DateCreated { get; set; }
 
         // Navigation property

@@ -10,3 +10,6 @@ D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.Models\obj\Debug\net6.0\refint\LifeSyncMVCWebApp.Data.Models.dll
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.Models\obj\Debug\net6.0\LifeSyncMVCWebApp.Data.Models.pdb
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.Models\obj\Debug\net6.0\ref\LifeSyncMVCWebApp.Data.Models.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.Models\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.dll
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.Models\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.pdb
+D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Data.Models\obj\Debug\net6.0\LifeSyncMVCWebApp.Data.Models.csproj.CopyComplete

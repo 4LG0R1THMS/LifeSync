@@ -3886,6 +3886,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "LifeSyncMVCWebApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LifeSyncMVCWebApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LifeSyncMVCWebApp.Common.dll": {}
+        }
+      },
       "LifeSyncMVCWebApp.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3904,6 +3914,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "LifeSyncMVCWebApp.Common": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0"
         },
         "compile": {
@@ -11196,6 +11207,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "LifeSyncMVCWebApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../LifeSyncMVCWebApp.Common/LifeSyncMVCWebApp.Common.csproj",
+      "msbuildProject": "../LifeSyncMVCWebApp.Common/LifeSyncMVCWebApp.Common.csproj"
     },
     "LifeSyncMVCWebApp.Data/1.0.0": {
       "type": "project",
