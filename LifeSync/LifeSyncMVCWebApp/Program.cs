@@ -18,7 +18,7 @@ namespace LifeSyncMVCWebApp
             builder.Services.AddDbContext<LifeSyncDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
-            builder.Services.AddDefaultIdentity<_ApplicationUser>(options =>
+            builder.Services.AddIdentity<_ApplicationUser, IdentityRole<Guid>>(options =>
             {
                 options.SignIn.RequireConfirmedAccount = true;
                 options.Password.RequireNonAlphanumeric = false;
@@ -28,10 +28,11 @@ namespace LifeSyncMVCWebApp
                 options.SignIn.RequireConfirmedAccount = false;
             })
                 .AddRoles<IdentityRole<Guid>>()
-                .AddEntityFrameworkStores<LifeSyncDbContext>(); ;
+                .AddEntityFrameworkStores<LifeSyncDbContext>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
 
             var app = builder.Build();
 
