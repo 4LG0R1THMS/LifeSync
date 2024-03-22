@@ -1,0 +1,15 @@
+@model List<LifeSync.Models.Note>
+
+    <h2>Notes</h2>
+
+    <a asp-action="Create">Create New</a>
+
+    @foreach (var note in Model)
+{
+    <div>
+        <h4>@note.Title</h4>
+        <p>@note.Content</p>
+        <p>Created At: @note.CreatedAt.ToString("g")</p>
+        <hr />
+    </div>
+}

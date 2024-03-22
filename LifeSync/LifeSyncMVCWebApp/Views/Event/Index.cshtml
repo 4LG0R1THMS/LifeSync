@@ -1,0 +1,15 @@
+@model List<LifeSync.Models.Event>
+
+    <h2>Event Calendar</h2>
+
+    <div class="calendar">
+        @foreach (var evt in Model)
+    {
+        <div class="event">
+            <h3>@evt.Title</h3>
+            <p><strong>Start Date:</strong> @evt.StartDate.ToShortDateString()</p>
+            <p><strong>End Date:</strong> @evt.EndDate.ToShortDateString()</p>
+            <p>@evt.Description</p>
+        </div>
+    }
+    </div>

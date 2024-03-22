@@ -1,0 +1,17 @@
+﻿@model LifeSync.Models.Task
+
+<h2>Delete Task</h2>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        <input asp-for="Title" class="form-control" disabled />
+    </div>
+
+    <!-- Добавете останалите полета на задачата, които искате да покажете -->
+
+    <p>Are you sure you want to delete this task?</p>
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>

@@ -5,69 +5,144 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LifeSyncMVCWebApp.Web
 build_property.RootNamespace = LifeSyncMVCWebApp.Web
-build_property.ProjectDir = D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp\
+build_property.ProjectDir = C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp
+build_property.MSBuildProjectDirectory = C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/Home/Index.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Contact/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Contact/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Event/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Event/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Event/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Event/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/Shared/Error.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Note/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Note/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Note/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Note/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Note/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Settings/settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3Ncc2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Settings/themes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcdGhlbWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/_ViewImports.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Task/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Task/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Task/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/_ViewStart.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/it-carrier-project/personal_organizer/LifeSync/LifeSyncMVCWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Joro/Desktop/LifeSync/LifeSync/LifeSyncMVCWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bculxifx1c

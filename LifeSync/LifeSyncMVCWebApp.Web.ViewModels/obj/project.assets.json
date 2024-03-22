@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\borislavchernev06\\.nuget\\packages\\": {}
+    "C:\\Users\\Joro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\LifeSyncMVCWebApp.Web.ViewModels.csproj",
+      "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\LifeSyncMVCWebApp.Web.ViewModels.csproj",
       "projectName": "LifeSyncMVCWebApp.Web.ViewModels",
-      "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\LifeSyncMVCWebApp.Web.ViewModels.csproj",
-      "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\obj\\",
+      "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\LifeSyncMVCWebApp.Web.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Web.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
