@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSync - Home</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <section class="task-column todo">
+            <h2>TODO</h2>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <button class="add-task-btn" onclick="addTask('todo')">
+                <span>+</span> Add Task
+            </button>
+        </section>
+
+        <section class="task-column in-progress">
+            <h2>In Progress</h2>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <button class="add-task-btn" onclick="addTask('in-progress')">
+                <span>+</span> Add Task
+            </button>
+        </section>
+
+        <section class="task-column done">
+            <h2>Done</h2>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 8</div>
+            <button class="add-task-btn" onclick="addTask('done')">
+                <span>+</span> Add Task
+            </button>
+        </section>
+    </div>
+
+    <footer>
+        2024 - LifeSync
+    </footer>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
