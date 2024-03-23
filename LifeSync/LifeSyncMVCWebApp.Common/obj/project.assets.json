@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Joro\\.nuget\\packages\\": {}
+    "C:\\Users\\borislavchernev06\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
+      "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
       "projectName": "LifeSyncMVCWebApp.Common",
-      "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
-      "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\obj\\",
+      "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
+      "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,3 +1,5 @@
+using LifeSync.Models;
+using LifeSyncMVCWebApp.Data;
 using LifeSyncMVCWebApp.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -6,9 +8,9 @@ using System.Threading.Tasks;
 
 public class ContactController : Controller
 {
-    private readonly ApplicationDbContext _context;
+    private readonly LifeSyncDbContext _context;
 
-    public ContactController(ApplicationDbContext context)
+    public ContactController(LifeSyncDbContext context)
     {
         _context = context;
     }
@@ -91,7 +93,7 @@ public class ContactController : Controller
             return NotFound();
         }
 
-        var contact = _context.Contacts.FirstOrDefault(m => m.Id == id);
+        var contact = _context.Contacts.FirstOrDefault(m => m.ContactId == id);
         if (contact == null)
         {
             return NotFound();
@@ -112,6 +114,6 @@ public class ContactController : Controller
 
     private bool ContactExists(int id)
     {
-        return _context.Contacts.Any(e => e.Id == id);
+        return _context.Contacts.Any(e => e.ContactId == id);
     }
 }
