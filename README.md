@@ -19,11 +19,11 @@ LifeSync offers the following key features:
 LifeSync is built using the following technologies:
 - **.NET**: A free, open-source developer platform for building various types of applications.
 - **Entity Framework**: An object-relational mapper that enables .NET developers to work with relational data using domain-specific objects.
-- **Blazor Pages**: A page-based programming model in ASP.NET Core that makes building web UI easier and more productive.
+- **Razor Pages**: A page-based programming model in ASP.NET Core that makes building web UI easier and more productive.
 
 <p align="center">
   <img src="https://global-uploads.webflow.com/6047a9e35e5dc54ac86ddd90/63064f1fedf422395124660e_e7d03466.png" alt=".NET" width="100" height="100" />
-  <img src="https://seeklogo.com/images/B/blazor-logo-B6B0844B72-seeklogo.com.png" alt="Blazor Pages" width="100" height="100" />
+  <img src="https://seeklogo.com/images/B/Blazor-logo-B6B0844B72-seeklogo.com.png" alt="Razor Pages" width="100" height="100" />
   <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/505004/images/6599295/terraform.png" alt="Terraform" width="100" height="100" />
 </p>
 
