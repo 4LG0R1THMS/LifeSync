@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj": {}
+    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj": {
+    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
         "projectName": "LifeSyncMVCWebApp.Common",
-        "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
-        "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\obj\\",
+        "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
+        "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
+    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj",
         "projectName": "LifeSyncMVCWebApp.Data.Models",
-        "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\obj\\",
+        "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj": {
-                "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj"
+              "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj": {
+                "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj"
               }
             }
           }
@@ -110,8 +109,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -120,21 +118,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj": {
+    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj",
         "projectName": "LifeSyncMVCWebApp.Data",
-        "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj",
-        "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj",
+        "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,8 +146,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
-                "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj"
+              "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj"
               }
             }
           }
@@ -181,8 +179,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -191,21 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj": {
+    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
         "projectName": "LifeSyncMVCWebApp.Web",
-        "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
-        "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp\\obj\\",
+        "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp\\LifeSyncMVCWebApp.Web.csproj",
+        "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -213,18 +210,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
-                "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj"
+              "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data.Models\\LifeSyncMVCWebApp.Data.Models.csproj"
               },
-              "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj": {
-                "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj"
+              "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj": {
+                "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Data\\LifeSyncMVCWebApp.Data.csproj"
               }
             }
           }
@@ -272,8 +268,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -285,7 +280,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

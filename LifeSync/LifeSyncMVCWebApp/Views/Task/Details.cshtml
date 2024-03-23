@@ -1,0 +1,13 @@
+﻿@model LifeSync.Models.Task
+
+<h2>Task Details</h2>
+
+<div>
+    <h4>Title: @Model.Title</h4>
+    <!-- Покажете останалите атрибути на задачата -->
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+</p>

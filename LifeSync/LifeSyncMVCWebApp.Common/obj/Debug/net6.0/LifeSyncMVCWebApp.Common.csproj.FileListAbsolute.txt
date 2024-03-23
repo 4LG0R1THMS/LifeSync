@@ -10,3 +10,15 @@ D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Commo
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\refint\LifeSyncMVCWebApp.Common.dll
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.pdb
 D:\GitHub\it-carrier-project\personal_organizer\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\ref\LifeSyncMVCWebApp.Common.dll
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.deps.json
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.dll
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\bin\Debug\net6.0\ref\LifeSyncMVCWebApp.Common.dll
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\bin\Debug\net6.0\LifeSyncMVCWebApp.Common.pdb
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.csproj.AssemblyReference.cache
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.AssemblyInfoInputs.cache
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.AssemblyInfo.cs
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.dll
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\ref\LifeSyncMVCWebApp.Common.dll
+C:\Users\Joro\Desktop\LifeSync\LifeSync\LifeSyncMVCWebApp.Common\obj\Debug\net6.0\LifeSyncMVCWebApp.Common.pdb

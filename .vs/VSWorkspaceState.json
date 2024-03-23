@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LifeSync",
+    "\\LifeSync\\LifeSyncMVCWebApp",
+    "\\LifeSync\\LifeSyncMVCWebApp.Common",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Controllers",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Models",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Views",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Views\\Contact",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Views\\Settings",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Views\\Task"
+  ],
+  "SelectedNode": "\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
+  "PreviewInSolutionExplorer": false
+}

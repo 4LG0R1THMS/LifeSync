@@ -1,0 +1,29 @@
+@model List<LifeSync.Models.Contact>
+
+    <h2>Contact List</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var contact in Model)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>@contact.Email</td>
+                <td>@contact.PhoneNumber</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@contact.Id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@contact.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@contact.Id">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
