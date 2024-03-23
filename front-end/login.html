@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSync - Login</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="left_section">
+        <section class="sec__text">
+            <div class="header__holder">
+                <p class="header__para">WELCOME BACK</p>
+                <h1 class="header__big">Log into your account<span class="hl__inline">.</span></h1>
+                <p class="header__question">Don't have an account yet? <a href="/register.html" class="header__link">Create one</a></p>    
+            </div>
+        </section>
+
+        <section class="sec__form">
+            <form action="post" class="form__login" id="registrationForm">
+                
+                <label for="email" class="inp__label">Email</label>
+                <input type="email" class="inp__email" id="email" name="email" required />
+        
+                <label for="password" class="inp__label">Password</label>
+                <input type="password" class="inp__password" id="password" name="password" required />
+
+                <input type="submit" class="btn__submit" value="Log In" disabled>
+            </form>
+        </section>
+    </div>
+
+    <script src="js/disableSubmit.js"></script>
+</body>
+</html>
