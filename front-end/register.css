@@ -128,3 +128,9 @@ body {
 .first_name__holder {
     margin-right: 10px;
 }
+
+.btn__submit:disabled {
+    background-color: #ccc; /* Gray color */
+    cursor: not-allowed;
+    color: #323232;
+}

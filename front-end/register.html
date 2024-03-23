@@ -19,7 +19,7 @@
         </section>
 
         <section class="sec__form">
-            <form action="post" class="form__register">
+            <form action="post" class="form__register" id="registrationForm">
                 
                 <div class="form__names">
                     <div class="first_name__holder">
@@ -40,7 +40,10 @@
                 <label for="password" class="inp__label">Password</label>
                 <input type="password" class="inp__password" id="password" name="password" required />
         
-                <input type="submit" class="btn__submit" value="Create account">
+                <label for="repeat_password" class="inp__label">Repeat Password</label>
+                <input type="password" class="inp__password" id="repeat_password" name="repeat_password" required />
+
+                <input type="submit" class="btn__submit" value="Create account" disabled>
             </form>
         </section>
     </div>
@@ -48,6 +51,7 @@
     <div class="right_section">
         
     </div>
-    
+
+    <script src="js/disableSubmit.js"></script>
 </body>
 </html>
