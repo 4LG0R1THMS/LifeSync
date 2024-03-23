@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Delete Contact</h1>
+        <p>Are you sure you want to delete this contact?</p>
+        <form action="/Contacts/Delete/@Model.ContactId" method="POST">
+            <input type="submit" value="Delete" class="btn__submit">
+        </form>
+    </div>
+</body>
+</html>
