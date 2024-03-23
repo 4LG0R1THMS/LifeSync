@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj": {}
+    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj": {
+    "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj",
+        "projectUniqueName": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj",
         "projectName": "LifeSyncMVCWebApp.Services",
-        "projectPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj",
-        "packagesPath": "C:\\Users\\Joro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joro\\Desktop\\LifeSync\\LifeSync\\LifeSyncMVCWebApp.Services\\obj\\",
+        "projectPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Services\\LifeSyncMVCWebApp.Services.csproj",
+        "packagesPath": "C:\\Users\\borislavchernev06\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\it-carrier-project\\personal_organizer\\LifeSync\\LifeSyncMVCWebApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\borislavchernev06\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
