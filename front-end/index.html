@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/cd61c82933.js" crossorigin="anonymous"></script>
-
 </head>
-<body> 
+<body>
     <!-- #212438 -->
     <header class="sec_vh__nav">
         <!-- Logo here -->
@@ -38,28 +37,31 @@
                 <a href="/login.html"><i class="fa-solid fa-unlock-keyhole"></i><span class="text">LOG IN</span></a>
             </div>
         </div>
-        <div>
+        <div style="overflow: hidden; margin-left: -100px;">
             <!-- Logo here -->
-            <h1>Logo</h1>
+            <img class="life_sync_logo" src="/images/LifeSync.png" alt="logo" width="350"/>
         </div>
     </section>
 
     <!-- Second section -->
-    <section class="sec_vh_full repeated">
+    <section class="sec_vh_full repeated" id="features">
         <!-- Features -->
         <div class="svg__spacer svg__layer_first"></div>
 
         <div class="hd__holder">
             <h2 class="sec__header">What we do</h2>
-            <p class="sec__para">We help you organize all of your tasks in one place for completely <span class="tx__highlited_reverse">free</span>!</p>
-            <p class="sec__para">Everybody knows how hard time management could be, so <span class="tx__highlited_reverse">LifeSync</span> is here to help you.</p>    
+            <p class="sec__para" id="animate1">We help you organize all of your tasks in one place for completely <span class="tx__highlited_reverse">free</span>!</p>
+            <p class="sec__para" id="animate2">Everybody knows how hard time management could be, so <span class="tx__highlited_reverse">LifeSync</span> is here to help you.</p>
         </div>
-        
     </section>
 
-    <section class="sec_vh_full">
+    <section class="sec_vh_full" id="about-us">
         <!-- About us -->
         <div class="svg__spacer svg__layer_second"></div>
+        <div class="hd__holder">
+            <h2 class="sec__header">About Us</h2>
+            <p class="sec__para" id="animate3">LifeSync is a team of dedicated professionals...</p>
+        </div>
     </section>
 
     <section class="sec_vh_full repeated">
@@ -67,9 +69,13 @@
         <div class="svg__spacer svg__layer_first"></div>
     </section>
 
-    <section class="sec_vh_full">
-        <!-- About us -->
+    <section class="sec_vh_full" id="faq">
+        <!-- FAQ -->
         <div class="svg__spacer svg__layer_second"></div>
+        <div class="hd__holder">
+            <h2 class="sec__header">FAQ</h2>
+            <p class="sec__para" id="animate4">Here are some common questions about LifeSync...</p>
+        </div>
     </section>
 
     <section class="sec_vh_full repeated">
@@ -77,10 +83,64 @@
         <div class="svg__spacer svg__layer_first"></div>
     </section>
 
-    <footer class="sec_vh_footer">
+    <footer class="sec_vh_footer" id="contact">
         <div class="svg__spacer svg__layer_second"></div>
         <a href="https://github.com/4LG0R1THMS/LifeSync" target="_blank">GitHub Page</a>
     </footer>
 
+    <!-- JavaScript for Scroll Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        // GSAP Animation for text on scroll
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.from("#animate1", {
+            scrollTrigger: {
+                trigger: "#features",
+                start: "top 70%",
+                end: "bottom 30%",
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            y: 50,
+            duration: 1,
+        });
+
+        gsap.from("#animate2", {
+            scrollTrigger: {
+                trigger: "#features",
+                start: "top 70%",
+                end: "bottom 30%",
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            y: 50,
+            duration: 1,
+        });
+
+        gsap.from("#animate3", {
+            scrollTrigger: {
+                trigger: "#about-us",
+                start: "top 70%",
+                end: "bottom 30%",
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            y: 50,
+            duration: 1,
+        });
+
+        gsap.from("#animate4", {
+            scrollTrigger: {
+                trigger: "#faq",
+                start: "top 70%",
+                end: "bottom 30%",
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            y: 50,
+            duration: 1,
+        });
+    </script>
 </body>
 </html>
