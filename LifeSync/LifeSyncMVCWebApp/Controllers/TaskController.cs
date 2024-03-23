@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using YourAppName.Models;
+using LifeSync.Models;
 
 public class TaskController : Controller
 {
-    private readonly List<Task> _tasks = new List<Task>(); // Пример: временно съхранение на задачите в лист
-
+    private readonly List<LifeSync.Models.Task> _tasks = new List<LifeSync.Models.Task>();
     public IActionResult Index()
     {
         return View(_tasks);
@@ -17,7 +16,7 @@ public class TaskController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(Task task)
+    public IActionResult Create(LifeSync.Models.Task task)
     {
         _tasks.Add(task);
         return RedirectToAction("Index");
@@ -34,7 +33,7 @@ public class TaskController : Controller
     }
 
     [HttpPost]
-    public IActionResult Edit(Task task)
+    public IActionResult Edit(LifeSync.Models.Task task)
     {
         var index = _tasks.FindIndex(t => t.Id == task.Id);
         if (index != -1)

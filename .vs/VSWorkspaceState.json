@@ -3,15 +3,14 @@
     "",
     "\\LifeSync",
     "\\LifeSync\\LifeSyncMVCWebApp",
-    "\\LifeSync\\LifeSyncMVCWebApp\\Areas\\Identity",
-    "\\LifeSync\\LifeSyncMVCWebApp\\Areas\\Identity\\Pages",
-    "\\LifeSync\\LifeSyncMVCWebApp\\Areas\\Identity\\Pages\\Account",
+    "\\LifeSync\\LifeSyncMVCWebApp.Common",
+    "\\LifeSync\\LifeSyncMVCWebApp\\Controllers",
     "\\LifeSync\\LifeSyncMVCWebApp\\Models",
     "\\LifeSync\\LifeSyncMVCWebApp\\Views",
     "\\LifeSync\\LifeSyncMVCWebApp\\Views\\Contact",
     "\\LifeSync\\LifeSyncMVCWebApp\\Views\\Settings",
     "\\LifeSync\\LifeSyncMVCWebApp\\Views\\Task"
   ],
-  "SelectedNode": "\\LifeSync\\LifeSyncMVCWebApp\\Models\\Event.cs",
+  "SelectedNode": "\\LifeSync\\LifeSyncMVCWebApp.Common\\LifeSyncMVCWebApp.Common.csproj",
   "PreviewInSolutionExplorer": false
 }

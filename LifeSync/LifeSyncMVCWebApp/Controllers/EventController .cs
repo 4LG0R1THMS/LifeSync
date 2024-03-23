@@ -1,4 +1,8 @@
 ﻿using System;
+using LifeSyncMVCWebApp.Web.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using LifeSync.Models;
 
 public class EventController : Controller
 {
@@ -26,7 +30,7 @@ public class EventController : Controller
         var existingEvent = _events.FirstOrDefault(e => e.Id == id);
         if (existingEvent == null)
         {
-            return NotFound(); // Event not found
+            return NotFound(); 
         }
         return View(existingEvent);
     }

@@ -1,3 +1,6 @@
+using LifeSyncMVCWebApp.Web.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 public class SettingsController : Controller
 {
     public IActionResult Theme()
